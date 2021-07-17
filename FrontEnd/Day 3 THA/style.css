@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #222;
+    font-family: "Ubuntu";
+}
+
+body {
+    padding: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 1rem 0;
+    color: salmon;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+
+p{
+    line-height: 1.5;
+}
+
+section + section{
+    margin-top: 2rem;
+}
+
+li + li{
+    margin-top: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.profile img{
+    border-radius: 9999px;
+    width: 15rem;
+    height: 15rem;
+} 
+
+.profile{
+    text-align: center;
+}
+
+.profile p{
+    margin-bottom: 1rem;
+    color: #888;
+    font-size: 1.25rem;
+}
+
+.contact li{
+    text-align: right;
+    padding: 1rem;
+    color: #888;
+    border-bottom: 1px solid #888;
+}
+
+
+.contact ul{
+    margin-top: -2rem;
+}
+
+.social li{
+    text-align: right;
+    padding: 1rem;
+    color: #888;
+    border-bottom: 1px solid #888;
+}
+
+
+.social ul{
+    margin-top: -2rem;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.content{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.resume{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 2rem;
+}
+
+.eventC {
+    display: grid;
+    grid-template-columns: 8ch 1fr;
+}
+
+.certi h3{
+    margin-bottom: 2rm;
+}

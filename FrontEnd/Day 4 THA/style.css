@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+}
+
+
+
+.clockout{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: violet;
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.clockin{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: rgb(128, 3, 185);
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.min{
+    border-left: 3px solid cyan;
+    height: 7rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+.hour{
+    border-left: 3.5px solid red;
+    height: 4rem;
+    position: fixed;
+    top: 46.5%;
+    left: 55.5%;
+    transform: translate(80%, -20%);
+    transform: rotate(150deg);
+}
+
+.second{
+    border-left: 1px solid black;
+    height: 7rem;
+    position: fixed;
+    top: 45%;
+    left: 38.5%;
+    transform: translate(30%, -100%);
+    transform: rotate(30deg);
+}
+
+

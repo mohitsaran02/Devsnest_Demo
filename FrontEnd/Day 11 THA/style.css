@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(naruto.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.result {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.title {
+    margin-left: 600px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 56px;
+    font-family: -'Ubuntu';
+    font-weight: bolder;
+    background-color: rgb(240, 164, 23);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: rgb(255, 251, 236, 0.65);
+    /* opacity: 0.9; */
+    width: 60%;
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 62px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px;
+    opacity: 1;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.option {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+button {
+    cursor: pointer;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 24px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #ececec;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+button:hover {
+    background-color: rgba(92, 149, 253, 0.7);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+    background: rgb(4, 182, 4);
+    transition: 0.5s ease;
+}
+
+.incorrect {
+    background: rgb(207, 2, 2);
+    transition: 0.5s ease;
+}

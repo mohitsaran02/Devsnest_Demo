@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    margin: 13px;
+    text-align: center;
+    color: darkcyan;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.c{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+ .container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+} 
+
+.red-box{
+    width: 20px;
+    height: 20px;
+    background-color: cyan;
+    border: 1px solid blue;
+    cursor: pointer;
+    outline: 1px solid darkblue;
+}
+
+.red-box:hover, .add-class{
+  background-color: blueviolet;
+}
+
+.white-box{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  cursor: pointer;
+  outline: 1px solid darkblue;
+}
+
+.add-class{
+  background-color: cyan;
+}
+
