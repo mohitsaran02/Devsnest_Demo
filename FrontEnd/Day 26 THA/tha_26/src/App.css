@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    
+}
+
+.form {
+    display: flex;
+    margin-top: 20px;
+    font-family: "Ubuntu";
+    font-size: 25px;
+    flex-direction: column;
+    margin-left: 500px;
+} 
+
+h2 {
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 40px;
+    width: 200px;
+    
+
+}
+
+h5{
+    margin-left: 200px;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.show {
+    margin-top: 100px;
+}
+
+p {
+    margin-top: 10px;
+}
